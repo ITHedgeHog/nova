@@ -555,6 +555,7 @@ $lang['labels_writing']			= 'writing';
 $lang['labels_yes']				= 'yes';
 $lang['labels_you']				= 'you';
 $lang['labels_your'] 			= 'your';
+$lang['labels_awards'] 			= 'Sim Awards';
 
 /*
 |---------------------------------------------------------------

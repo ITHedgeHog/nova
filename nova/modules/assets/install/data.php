@@ -882,9 +882,17 @@ $menu_items = array(
 		'menu_type' => 'sub',
 		'menu_cat' => 'main'),
 	array(
-		'menu_name' => 'Contact',
+		'menu_name' => 'Awards',
 		'menu_group' => 0,
 		'menu_order' => 2,
+		'menu_link' => 'main/awards',
+		'menu_sim_type' => 1,
+		'menu_type' => 'sub',
+		'menu_cat' => 'main'),
+	array(
+		'menu_name' => 'Contact',
+		'menu_group' => 0,
+		'menu_order' => 3,
 		'menu_link' => 'main/contact',
 		'menu_sim_type' => 1,
 		'menu_type' => 'sub',
@@ -892,7 +900,7 @@ $menu_items = array(
 	array(
 		'menu_name' => 'Credits',
 		'menu_group' => 0,
-		'menu_order' => 3,
+		'menu_order' => 4,
 		'menu_link' => 'main/credits',
 		'menu_sim_type' => 1,
 		'menu_type' => 'sub',
@@ -900,7 +908,7 @@ $menu_items = array(
 	array(
 		'menu_name' => 'Join',
 		'menu_group' => 0,
-		'menu_order' => 4,
+		'menu_order' => 5,
 		'menu_link' => 'main/join',
 		'menu_sim_type' => 1,
 		'menu_type' => 'sub',
@@ -908,7 +916,7 @@ $menu_items = array(
 	array(
 		'menu_name' => 'Rules',
 		'menu_group' => 0,
-		'menu_order' => 5,
+		'menu_order' => 6,
 		'menu_link' => 'main/rules',
 		'menu_sim_type' => 1,
 		'menu_type' => 'sub',
@@ -916,7 +924,7 @@ $menu_items = array(
 	array(
 		'menu_name' => 'Search',
 		'menu_group' => 0,
-		'menu_order' => 6,
+		'menu_order' => 7,
 		'menu_link' => 'search/index',
 		'menu_sim_type' => 1,
 		'menu_type' => 'sub',
@@ -1808,6 +1816,21 @@ $messages = array(
 		'message_label' => 'Join Page Header',
 		'message_content' => 'Join',
 		'message_type' => 'title'),
+	array(
+		'message_key' => 'mission-status',
+		'message_label' => 'Mission Status',
+		'message_content' => "Current Mission Status",
+		'message_type' => 'title'),
+	array(
+		'message_key' => 'ship-status',
+		'message_label' => 'Ship Status',
+		'message_content' => "Current Ship Status",
+		'message_type' => 'title'),
+	array(
+		'message_key' => 'awards',
+		'message_label' => 'Awards',
+		'message_content' => "Define your Awards through the Site Messages page.",
+		'message_type' => 'message'),
 
 	array(
 		'message_key' => 'policy-privacy',
@@ -2033,7 +2056,7 @@ $settings = array(
 		'setting_user_created' => 'n'),
 	array(
 		'setting_key' => 'updates',
-		'setting_value' => 'all',
+		'setting_value' => 'none',
 		'setting_user_created' => 'n'),
 	array(
 		'setting_key' => 'show_news',

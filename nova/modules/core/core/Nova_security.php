@@ -40,15 +40,12 @@ abstract class Nova_Security extends CI_Security {
 	 */
 	public function xss_clean($str, $is_image = FALSE)
 	{
-		/*
-		 * Is the string an array?
-		 *
-		 */
+		// Is the string an array?
 		if (is_array($str))
 		{
-			while (list($key) = each($str))
+			foreach ($str as $key => &$value)
 			{
-				$str[$key] = $this->xss_clean($str[$key]);
+				$str[$key] = $this->xss_clean($value);
 			}
 
 			return $str;

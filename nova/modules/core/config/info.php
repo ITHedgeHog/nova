@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-define('APP_NAME',				'Nova');
+define('APP_NAME',				'Nova-AZ1');
 
 define('APP_VERSION',			'2.5.1');
 define('APP_VERSION_MAJOR',		2);

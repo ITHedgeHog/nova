@@ -18,7 +18,7 @@ abstract class Nova_util {
 	 * @access	public
 	 * @return 	string	the email address to use
 	 */
-	public function email_sender()
+	public static function email_sender()
 	{
 		// get an instance of the CI object
 		$ci =& get_instance();
